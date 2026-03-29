@@ -25,9 +25,10 @@ title: Home
   </div>
   <div class="line output-line">
     <span class="output">
-      <a href="/hobbies/">hobbies/</a>&nbsp;&nbsp;
-      <a href="/books/">books/</a>&nbsp;&nbsp;
-      <a href="/travel/">travel/</a>
+      <a href="/engineering/">engineering/</a>&nbsp;&nbsp;
+      <a href="/home-improvement/">home-improvement/</a>&nbsp;&nbsp;
+      <a href="/stories/">stories/</a>&nbsp;&nbsp;
+      <a href="/music/">music/</a>
     </span>
   </div>
 

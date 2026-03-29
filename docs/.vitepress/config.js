@@ -15,21 +15,42 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Hobbies',
+        text: 'Engineering',
+        collapsed: true,
         items: [
-          { text: 'Overview', link: '/hobbies/' },
+          { text: 'Overview',   link: '/engineering/' },
+          { text: 'Mechanical', link: '/engineering/mechanical/' },
+          { text: 'Computer',   link: '/engineering/computer/' },
+          { text: 'Electrical', link: '/engineering/electrical/' },
         ],
       },
       {
-        text: 'Books',
+        text: 'Home Improvement',
+        collapsed: true,
         items: [
-          { text: 'Overview', link: '/books/' },
+          { text: 'Overview', link: '/home-improvement/' },
+          { text: 'Builds',   link: '/home-improvement/builds/' },
+          { text: 'Projects', link: '/home-improvement/projects/' },
         ],
       },
       {
-        text: 'Travel',
+        text: 'Stories',
+        collapsed: true,
         items: [
-          { text: 'Overview', link: '/travel/' },
+          { text: 'Overview', link: '/stories/' },
+          { text: 'Movies',   link: '/stories/movies/' },
+          { text: 'Shows',    link: '/stories/shows/' },
+          { text: 'Anime',    link: '/stories/anime/' },
+          { text: 'Manga',    link: '/stories/manga/' },
+          { text: 'Poem',     link: '/stories/poem/' },
+          { text: 'Journal',  link: '/stories/journal/' },
+        ],
+      },
+      {
+        text: 'Music',
+        collapsed: true,
+        items: [
+          { text: 'Overview', link: '/music/' },
         ],
       },
     ],
