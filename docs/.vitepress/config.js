@@ -13,12 +13,17 @@ export default defineConfig({
       { text: 'Home', link: '/' },
     ],
 
+    docFooter: {
+      prev: false,
+      next: false,
+    },
+
     sidebar: [
       {
         text: 'Engineering',
         collapsed: true,
         items: [
-          { text: 'Overview',   link: '/engineering/' },
+          { text: '~',          link: '/engineering/' },
           { text: 'Mechanical', link: '/engineering/mechanical/' },
           { text: 'Computer',   link: '/engineering/computer/' },
           { text: 'Electrical', link: '/engineering/electrical/' },
@@ -28,7 +33,7 @@ export default defineConfig({
         text: 'Home Improvement',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/home-improvement/' },
+          { text: '~',        link: '/home-improvement/' },
           { text: 'Builds',   link: '/home-improvement/builds/' },
           { text: 'Projects', link: '/home-improvement/projects/' },
         ],
@@ -37,20 +42,30 @@ export default defineConfig({
         text: 'Stories',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/stories/' },
-          { text: 'Movies',   link: '/stories/movies/' },
-          { text: 'Shows',    link: '/stories/shows/' },
-          { text: 'Anime',    link: '/stories/anime/' },
-          { text: 'Manga',    link: '/stories/manga/' },
-          { text: 'Poem',     link: '/stories/poem/' },
-          { text: 'Journal',  link: '/stories/journal/' },
+          { text: '~',       link: '/stories/' },
+          { text: 'Movies',  link: '/stories/movies/' },
+          { text: 'Shows',   link: '/stories/shows/' },
+          { text: 'Anime',   link: '/stories/anime/' },
+          { text: 'Manga',   link: '/stories/manga/' },
+          { text: 'Poem',    link: '/stories/poem/' },
+          { text: 'Journal', link: '/stories/journal/' },
         ],
       },
       {
         text: 'Music',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/music/' },
+          { text: '~', link: '/music/' },
+        ],
+      },
+      {
+        text: 'Games',
+        collapsed: true,
+        items: [
+          { text: '~',     link: '/games/' },
+          { text: 'Video', link: '/games/video/' },
+          { text: 'Board', link: '/games/board/' },
+          { text: 'LEGO',  link: '/games/lego/' },
         ],
       },
     ],

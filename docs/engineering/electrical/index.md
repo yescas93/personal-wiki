@@ -1,2 +1,9 @@
-# Electrical Engineering
+<pre class="page-ascii">
+  +--||--+
+  |      |
+ (~)    [R]
+  |      |
+  +--/\--+
+</pre>
 
+# Electrical Engineering

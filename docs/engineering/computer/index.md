@@ -1,2 +1,9 @@
-# Computer Engineering
+<pre class="page-ascii">
+ .-----------.
+ | >_        |
+ |           |
+ '-----------'
+     | | |
+</pre>
 
+# Computer Engineering
