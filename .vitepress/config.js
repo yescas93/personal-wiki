@@ -6,6 +6,8 @@ export default defineConfig({
   base: '/',
 
   themeConfig: {
+    siteTitle: "Alex's Wiki",
+
     nav: [
       { text: 'Home', link: '/' },
     ],
