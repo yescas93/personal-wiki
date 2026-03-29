@@ -1,15 +1,38 @@
-# Welcome to Alex's Wiki
-
-A personal space to document interests, discoveries, and notes.
-
+---
+title: Home
 ---
 
-## Categories
+<div class="terminal-hero">
+  <div class="line">
+    <span class="prompt">alex@wiki:~$</span>
+    <span class="cmd">whoami</span>
+  </div>
+  <div class="line output-line">
+    <span class="output">alex yescas</span>
+  </div>
 
-- [Hobbies](/hobbies/) — Things I enjoy doing
-- [Books](/books/) — Reading log and notes
-- [Travel](/travel/) — Places visited and trip notes
+  <div class="line">
+    <span class="prompt">alex@wiki:~$</span>
+    <span class="cmd">cat about.txt</span>
+  </div>
+  <div class="line output-line">
+    <span class="output">personal wiki — notes, interests &amp; curiosities</span>
+  </div>
 
----
+  <div class="line">
+    <span class="prompt">alex@wiki:~$</span>
+    <span class="cmd">ls</span>
+  </div>
+  <div class="line output-line">
+    <span class="output">
+      <a href="/hobbies/">hobbies/</a>&nbsp;&nbsp;
+      <a href="/books/">books/</a>&nbsp;&nbsp;
+      <a href="/travel/">travel/</a>
+    </span>
+  </div>
 
-*Add new pages by creating `.md` files inside any category folder.*
+  <div class="line">
+    <span class="prompt">alex@wiki:~$</span>
+    <span class="cursor">█</span>
+  </div>
+</div>

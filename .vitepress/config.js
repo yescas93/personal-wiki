@@ -4,9 +4,10 @@ export default defineConfig({
   title: "Alex's Wiki",
   description: "Personal notes, interests, and curiosities",
   base: '/',
+  appearance: 'force-dark',
 
   themeConfig: {
-    siteTitle: "Alex's Wiki",
+    siteTitle: 'alex@wiki:~$',
 
     nav: [
       { text: 'Home', link: '/' },
